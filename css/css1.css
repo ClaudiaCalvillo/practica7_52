@@ -1,0 +1,40 @@
+/* Selector por clase */
+/* .Titulo {
+    border: 1px solid black;
+    box-shadow: -5px -5px 15px blueviolet;
+} */
+
+/* Selector por atributo. Que tenga un atributo sin importar el valor */
+/* p[lang="en"] {
+    background-color: aquamarine;
+
+}
+
+ */
+ /* $ Significa que termine con los especificado */
+/* a[href$= "org"] {
+    background-color:antiquewhite;
+}
+a[href^="#"] {
+    background-color: blueviolet;
+}
+a[href~="empresa"] {
+    font-size: 60px;
+} */
+
+/* Selector de descendientes */
+/* main p {
+    border-bottom: 1px dashed black;
+} */
+
+/* Selector hijo directo */
+/* main > p {
+    border-bottom: 1px dashed black;
+} */
+
+h3 ~ p { 
+    border-top: 1px solid violet;
+    border-radius: 20px;
+}
+
+
